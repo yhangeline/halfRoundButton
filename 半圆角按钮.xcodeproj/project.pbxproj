@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F853D0D21BCCD4D10019CC35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F853D0D11BCCD4D10019CC35 /* main.m */; };
+		F853D0D51BCCD4D10019CC35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F853D0D41BCCD4D10019CC35 /* AppDelegate.m */; };
+		F853D0D81BCCD4D10019CC35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F853D0D71BCCD4D10019CC35 /* ViewController.m */; };
+		F853D0DB1BCCD4D10019CC35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F853D0D91BCCD4D10019CC35 /* Main.storyboard */; };
+		F853D0DD1BCCD4D10019CC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F853D0DC1BCCD4D10019CC35 /* Assets.xcassets */; };
+		F853D0E01BCCD4D10019CC35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F853D0DE1BCCD4D10019CC35 /* LaunchScreen.storyboard */; };
+		F853D0EB1BCCD4D10019CC35 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F853D0EA1BCCD4D10019CC35 /* _____Tests.m */; };
+		F853D0F61BCCD4D10019CC35 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F853D0F51BCCD4D10019CC35 /* _____UITests.m */; };
+		F853D1051BCCD5420019CC35 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F853D1041BCCD5420019CC35 /* MyLabel.m */; settings = {ASSET_TAGS = (); }; };
+		F853D10B1BCCD6620019CC35 /* UILabel+YH.m in Sources */ = {isa = PBXBuildFile; fileRef = F853D10A1BCCD6620019CC35 /* UILabel+YH.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F853D0E71BCCD4D10019CC35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F853D0C51BCCD4D10019CC35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F853D0CC1BCCD4D10019CC35;
+			remoteInfo = "半圆角按钮";
+		};
+		F853D0F21BCCD4D10019CC35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F853D0C51BCCD4D10019CC35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F853D0CC1BCCD4D10019CC35;
+			remoteInfo = "半圆角按钮";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F853D0CD1BCCD4D10019CC35 /* 半圆角按钮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "半圆角按钮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F853D0D11BCCD4D10019CC35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F853D0D31BCCD4D10019CC35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F853D0D41BCCD4D10019CC35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F853D0D61BCCD4D10019CC35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F853D0D71BCCD4D10019CC35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F853D0DA1BCCD4D10019CC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F853D0DC1BCCD4D10019CC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F853D0DF1BCCD4D10019CC35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F853D0E11BCCD4D10019CC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F853D0E61BCCD4D10019CC35 /* 半圆角按钮Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "半圆角按钮Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F853D0EA1BCCD4D10019CC35 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		F853D0EC1BCCD4D10019CC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F853D0F11BCCD4D10019CC35 /* 半圆角按钮UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "半圆角按钮UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F853D0F51BCCD4D10019CC35 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		F853D0F71BCCD4D10019CC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F853D1031BCCD5420019CC35 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		F853D1041BCCD5420019CC35 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
+		F853D1091BCCD6620019CC35 /* UILabel+YH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YH.h"; sourceTree = "<group>"; };
+		F853D10A1BCCD6620019CC35 /* UILabel+YH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YH.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F853D0CA1BCCD4D10019CC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F853D0E31BCCD4D10019CC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F853D0EE1BCCD4D10019CC35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F853D0C41BCCD4D10019CC35 = {
+			isa = PBXGroup;
+			children = (
+				F853D0CF1BCCD4D10019CC35 /* 半圆角按钮 */,
+				F853D0E91BCCD4D10019CC35 /* 半圆角按钮Tests */,
+				F853D0F41BCCD4D10019CC35 /* 半圆角按钮UITests */,
+				F853D0CE1BCCD4D10019CC35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F853D0CE1BCCD4D10019CC35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F853D0CD1BCCD4D10019CC35 /* 半圆角按钮.app */,
+				F853D0E61BCCD4D10019CC35 /* 半圆角按钮Tests.xctest */,
+				F853D0F11BCCD4D10019CC35 /* 半圆角按钮UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F853D0CF1BCCD4D10019CC35 /* 半圆角按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				F853D0D31BCCD4D10019CC35 /* AppDelegate.h */,
+				F853D0D41BCCD4D10019CC35 /* AppDelegate.m */,
+				F853D0D61BCCD4D10019CC35 /* ViewController.h */,
+				F853D0D71BCCD4D10019CC35 /* ViewController.m */,
+				F853D1091BCCD6620019CC35 /* UILabel+YH.h */,
+				F853D10A1BCCD6620019CC35 /* UILabel+YH.m */,
+				F853D1031BCCD5420019CC35 /* MyLabel.h */,
+				F853D1041BCCD5420019CC35 /* MyLabel.m */,
+				F853D0D91BCCD4D10019CC35 /* Main.storyboard */,
+				F853D0DC1BCCD4D10019CC35 /* Assets.xcassets */,
+				F853D0DE1BCCD4D10019CC35 /* LaunchScreen.storyboard */,
+				F853D0E11BCCD4D10019CC35 /* Info.plist */,
+				F853D0D01BCCD4D10019CC35 /* Supporting Files */,
+			);
+			path = "半圆角按钮";
+			sourceTree = "<group>";
+		};
+		F853D0D01BCCD4D10019CC35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F853D0D11BCCD4D10019CC35 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F853D0E91BCCD4D10019CC35 /* 半圆角按钮Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F853D0EA1BCCD4D10019CC35 /* _____Tests.m */,
+				F853D0EC1BCCD4D10019CC35 /* Info.plist */,
+			);
+			path = "半圆角按钮Tests";
+			sourceTree = "<group>";
+		};
+		F853D0F41BCCD4D10019CC35 /* 半圆角按钮UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F853D0F51BCCD4D10019CC35 /* _____UITests.m */,
+				F853D0F71BCCD4D10019CC35 /* Info.plist */,
+			);
+			path = "半圆角按钮UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F853D0CC1BCCD4D10019CC35 /* 半圆角按钮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F853D0FA1BCCD4D10019CC35 /* Build configuration list for PBXNativeTarget "半圆角按钮" */;
+			buildPhases = (
+				F853D0C91BCCD4D10019CC35 /* Sources */,
+				F853D0CA1BCCD4D10019CC35 /* Frameworks */,
+				F853D0CB1BCCD4D10019CC35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "半圆角按钮";
+			productName = "半圆角按钮";
+			productReference = F853D0CD1BCCD4D10019CC35 /* 半圆角按钮.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F853D0E51BCCD4D10019CC35 /* 半圆角按钮Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F853D0FD1BCCD4D10019CC35 /* Build configuration list for PBXNativeTarget "半圆角按钮Tests" */;
+			buildPhases = (
+				F853D0E21BCCD4D10019CC35 /* Sources */,
+				F853D0E31BCCD4D10019CC35 /* Frameworks */,
+				F853D0E41BCCD4D10019CC35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F853D0E81BCCD4D10019CC35 /* PBXTargetDependency */,
+			);
+			name = "半圆角按钮Tests";
+			productName = "半圆角按钮Tests";
+			productReference = F853D0E61BCCD4D10019CC35 /* 半圆角按钮Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F853D0F01BCCD4D10019CC35 /* 半圆角按钮UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F853D1001BCCD4D10019CC35 /* Build configuration list for PBXNativeTarget "半圆角按钮UITests" */;
+			buildPhases = (
+				F853D0ED1BCCD4D10019CC35 /* Sources */,
+				F853D0EE1BCCD4D10019CC35 /* Frameworks */,
+				F853D0EF1BCCD4D10019CC35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F853D0F31BCCD4D10019CC35 /* PBXTargetDependency */,
+			);
+			name = "半圆角按钮UITests";
+			productName = "半圆角按钮UITests";
+			productReference = F853D0F11BCCD4D10019CC35 /* 半圆角按钮UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F853D0C51BCCD4D10019CC35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = yh;
+				TargetAttributes = {
+					F853D0CC1BCCD4D10019CC35 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F853D0E51BCCD4D10019CC35 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F853D0CC1BCCD4D10019CC35;
+					};
+					F853D0F01BCCD4D10019CC35 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F853D0CC1BCCD4D10019CC35;
+					};
+				};
+			};
+			buildConfigurationList = F853D0C81BCCD4D10019CC35 /* Build configuration list for PBXProject "半圆角按钮" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F853D0C41BCCD4D10019CC35;
+			productRefGroup = F853D0CE1BCCD4D10019CC35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F853D0CC1BCCD4D10019CC35 /* 半圆角按钮 */,
+				F853D0E51BCCD4D10019CC35 /* 半圆角按钮Tests */,
+				F853D0F01BCCD4D10019CC35 /* 半圆角按钮UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F853D0CB1BCCD4D10019CC35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F853D0E01BCCD4D10019CC35 /* LaunchScreen.storyboard in Resources */,
+				F853D0DD1BCCD4D10019CC35 /* Assets.xcassets in Resources */,
+				F853D0DB1BCCD4D10019CC35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F853D0E41BCCD4D10019CC35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F853D0EF1BCCD4D10019CC35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F853D0C91BCCD4D10019CC35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F853D0D81BCCD4D10019CC35 /* ViewController.m in Sources */,
+				F853D0D51BCCD4D10019CC35 /* AppDelegate.m in Sources */,
+				F853D1051BCCD5420019CC35 /* MyLabel.m in Sources */,
+				F853D10B1BCCD6620019CC35 /* UILabel+YH.m in Sources */,
+				F853D0D21BCCD4D10019CC35 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F853D0E21BCCD4D10019CC35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F853D0EB1BCCD4D10019CC35 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F853D0ED1BCCD4D10019CC35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F853D0F61BCCD4D10019CC35 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F853D0E81BCCD4D10019CC35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F853D0CC1BCCD4D10019CC35 /* 半圆角按钮 */;
+			targetProxy = F853D0E71BCCD4D10019CC35 /* PBXContainerItemProxy */;
+		};
+		F853D0F31BCCD4D10019CC35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F853D0CC1BCCD4D10019CC35 /* 半圆角按钮 */;
+			targetProxy = F853D0F21BCCD4D10019CC35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F853D0D91BCCD4D10019CC35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F853D0DA1BCCD4D10019CC35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F853D0DE1BCCD4D10019CC35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F853D0DF1BCCD4D10019CC35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F853D0F81BCCD4D10019CC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F853D0F91BCCD4D10019CC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F853D0FB1BCCD4D10019CC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "半圆角按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yh.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F853D0FC1BCCD4D10019CC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "半圆角按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yh.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F853D0FE1BCCD4D10019CC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "半圆角按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yh.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/半圆角按钮.app/半圆角按钮";
+			};
+			name = Debug;
+		};
+		F853D0FF1BCCD4D10019CC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "半圆角按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yh.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/半圆角按钮.app/半圆角按钮";
+			};
+			name = Release;
+		};
+		F853D1011BCCD4D10019CC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "半圆角按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yh.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "半圆角按钮";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F853D1021BCCD4D10019CC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "半圆角按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yh.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "半圆角按钮";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F853D0C81BCCD4D10019CC35 /* Build configuration list for PBXProject "半圆角按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F853D0F81BCCD4D10019CC35 /* Debug */,
+				F853D0F91BCCD4D10019CC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F853D0FA1BCCD4D10019CC35 /* Build configuration list for PBXNativeTarget "半圆角按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F853D0FB1BCCD4D10019CC35 /* Debug */,
+				F853D0FC1BCCD4D10019CC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F853D0FD1BCCD4D10019CC35 /* Build configuration list for PBXNativeTarget "半圆角按钮Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F853D0FE1BCCD4D10019CC35 /* Debug */,
+				F853D0FF1BCCD4D10019CC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F853D1001BCCD4D10019CC35 /* Build configuration list for PBXNativeTarget "半圆角按钮UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F853D1011BCCD4D10019CC35 /* Debug */,
+				F853D1021BCCD4D10019CC35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F853D0C51BCCD4D10019CC35 /* Project object */;
+}
