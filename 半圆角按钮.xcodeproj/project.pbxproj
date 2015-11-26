@@ -15,8 +15,6 @@
 		F853D0E01BCCD4D10019CC35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F853D0DE1BCCD4D10019CC35 /* LaunchScreen.storyboard */; };
 		F853D0EB1BCCD4D10019CC35 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F853D0EA1BCCD4D10019CC35 /* _____Tests.m */; };
 		F853D0F61BCCD4D10019CC35 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F853D0F51BCCD4D10019CC35 /* _____UITests.m */; };
-		F853D1051BCCD5420019CC35 /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F853D1041BCCD5420019CC35 /* MyLabel.m */; settings = {ASSET_TAGS = (); }; };
-		F853D10B1BCCD6620019CC35 /* UILabel+YH.m in Sources */ = {isa = PBXBuildFile; fileRef = F853D10A1BCCD6620019CC35 /* UILabel+YH.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +51,6 @@
 		F853D0F11BCCD4D10019CC35 /* 半圆角按钮UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "半圆角按钮UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F853D0F51BCCD4D10019CC35 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		F853D0F71BCCD4D10019CC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F853D1031BCCD5420019CC35 /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
-		F853D1041BCCD5420019CC35 /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
-		F853D1091BCCD6620019CC35 /* UILabel+YH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YH.h"; sourceTree = "<group>"; };
-		F853D10A1BCCD6620019CC35 /* UILabel+YH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YH.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +105,6 @@
 				F853D0D41BCCD4D10019CC35 /* AppDelegate.m */,
 				F853D0D61BCCD4D10019CC35 /* ViewController.h */,
 				F853D0D71BCCD4D10019CC35 /* ViewController.m */,
-				F853D1091BCCD6620019CC35 /* UILabel+YH.h */,
-				F853D10A1BCCD6620019CC35 /* UILabel+YH.m */,
-				F853D1031BCCD5420019CC35 /* MyLabel.h */,
-				F853D1041BCCD5420019CC35 /* MyLabel.m */,
 				F853D0D91BCCD4D10019CC35 /* Main.storyboard */,
 				F853D0DC1BCCD4D10019CC35 /* Assets.xcassets */,
 				F853D0DE1BCCD4D10019CC35 /* LaunchScreen.storyboard */,
@@ -282,8 +272,6 @@
 			files = (
 				F853D0D81BCCD4D10019CC35 /* ViewController.m in Sources */,
 				F853D0D51BCCD4D10019CC35 /* AppDelegate.m in Sources */,
-				F853D1051BCCD5420019CC35 /* MyLabel.m in Sources */,
-				F853D10B1BCCD6620019CC35 /* UILabel+YH.m in Sources */,
 				F853D0D21BCCD4D10019CC35 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,6 +496,7 @@
 				F853D0FC1BCCD4D10019CC35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F853D0FD1BCCD4D10019CC35 /* Build configuration list for PBXNativeTarget "半圆角按钮Tests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +505,7 @@
 				F853D0FF1BCCD4D10019CC35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F853D1001BCCD4D10019CC35 /* Build configuration list for PBXNativeTarget "半圆角按钮UITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +514,7 @@
 				F853D1021BCCD4D10019CC35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

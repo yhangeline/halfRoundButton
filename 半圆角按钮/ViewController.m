@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "MyLabel.h"
+
 @interface ViewController ()
 
 @end
@@ -17,10 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-//    
-//    MyLabel *label = [[MyLabel alloc] initWithFrame:CGRectMake(50, 50, 100, 100)];
-//    label.text = @"哈哈哈";
-//    [self.view addSubview:label];
+
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(100, 100, 150, 100);
